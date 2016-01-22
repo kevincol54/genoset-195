@@ -1,0 +1,41 @@
+{
+  "name": "genoset-195",
+  "version": "1.0.0",
+  "description": "Your haplotype is a very significant risk factor for malignant melanoma",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincol54/genoset-195"
+  },
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "standard *.js tests/*.js"
+  },
+  "keywords": [
+    "genome",
+    "genoset",
+    "genes",
+    "dna",
+    "gs195",
+    "genoset-195",
+    "malignant melanoma",
+    "melanoma",
+    "significant risk"
+  ],
+  "author": "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^5.0.1",
+    "tap-spec": "^4.1.1"
+  },
+  "dependencies": {
+    "gql": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}
