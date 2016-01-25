@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kcollins/.nvm/versions/node/v4.2.4/bin/node',
+1 verbose cli   '/Users/kcollins/.nvm/versions/node/v4.2.4/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.5.3
+3 info using node@v4.2.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/kcollins/Genome/increased_risk_factor_malignant_melanoma-gs195',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/kcollins/.npm/genoset-195/1.0.0/package.tgz not in flight; packing
+9 info lifecycle genoset-195@1.0.0~prepublish: genoset-195@1.0.0
+10 silly lifecycle genoset-195@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/kcollins/.npm/genoset-195/1.0.0/package.tgz',
+11 verbose tar pack   '/Users/kcollins/Genome/increased_risk_factor_malignant_melanoma-gs195' ]
+12 verbose tarball /Users/kcollins/.npm/genoset-195/1.0.0/package.tgz
+13 verbose folder /Users/kcollins/Genome/increased_risk_factor_malignant_melanoma-gs195
+14 verbose addLocalTarball adding from inside cache /Users/kcollins/.npm/genoset-195/1.0.0/package.tgz
+15 silly cache afterAdd genoset-195@1.0.0
+16 verbose afterAdd /Users/kcollins/.npm/genoset-195/1.0.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/kcollins/.npm/genoset-195/1.0.0/package/package.json written
+18 silly publish { name: 'genoset-195',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'Your haplotype is a very significant risk factor for malignant melanoma',
+18 silly publish   main: 'index.js',
+18 silly publish   directories: { test: 'tests' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/kevincol54/genoset-195.git' },
+18 silly publish   scripts:
+18 silly publish    { test: 'tap ./tests/*.js | tap-spec',
+18 silly publish      lint: 'standard *.js tests/*.js' },
+18 silly publish   keywords:
+18 silly publish    [ 'genome',
+18 silly publish      'genoset',
+18 silly publish      'genes',
+18 silly publish      'dna',
+18 silly publish      'gs195',
+18 silly publish      'genoset-195',
+18 silly publish      'malignant melanoma',
+18 silly publish      'melanoma',
+18 silly publish      'significant risk' ],
+18 silly publish   author:
+18 silly publish    { name: 'Kevin Collins',
+18 silly publish      email: 'kevincol54@gmail.com',
+18 silly publish      url: 'https://github.com/kevincol54' },
+18 silly publish   license: 'MIT',
+18 silly publish   devDependencies: { standard: '^5.4.1', tap: '^5.0.1', 'tap-spec': '^4.1.1' },
+18 silly publish   dependencies: { gql: '^1.1.0' },
+18 silly publish   engines: { node: '4.2.4' },
+18 silly publish   readme: '# genoset-195\n\nThis script determines if your haplotype is a very significant risk factor for malignant melanoma, as per [gs195](http://www.snpedia.com/index.php/Gs195)\n\n## Compatibility\n\nThis genoset is to be used with DNA-JSON. See [dna2json](https://github.com/genomejs/dna2json) for more information.\n\n## Usage\n\n```js\nvar increasedRisk = require(\'genoset-195\');\nvar dna = require(\'./dna.json\');\n\nconsole.log(increasedRisk(dna));\n// → `true` or `false`\n```\n\n## Contributions\n\nThis Project follows the StandardJS style guide.\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\nTo Contribute:\n\n- Clone Repo\n- `npm install`\n- Write Code\n- Write Test(s)\n- Submit Pull Request\n\n\n## Author\n\n| [![twitter/kevco54](https://gravatar.com/avatar/c3f0cac49ad7d267cb58499a86bfdd19)](https://twitter.com/kevco54 "Follow @kevco54 on Twitter") |\n|---|\n| [Kevin Collins](https://iamkevin.co/) |\n\n## License\n\n_genoset-195_ is available under the [MIT](https://mths.be/mit) license.\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '8d265e7efd7c09616a1d824a907ce79645979533',
+18 silly publish   bugs: { url: 'https://github.com/kevincol54/genoset-195/issues' },
+18 silly publish   homepage: 'https://github.com/kevincol54/genoset-195#readme',
+18 silly publish   _id: 'genoset-195@1.0.0',
+18 silly publish   _shasum: '012c2ec116b0edf2231e868e38572bc76f60f16d',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name genoset-195
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/genoset-195
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/kcollins/.npm/genoset-195/1.0.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/genoset-195
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 9:42:08 AM
+29 verbose request using bearer token for auth
+30 verbose request id 50cb75e5911a7440
+31 http request PUT https://registry.npmjs.org/genoset-195
+32 http 403 https://registry.npmjs.org/genoset-195
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '103',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Mon, 25 Jan 2016 14:42:07 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-iad2126-IAD',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1453732927.550774,VS0,VE382' }
+34 verbose request invalidating /Users/kcollins/.npm/registry.npmjs.org/genoset-195 on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: You do not have permission to publish 'genoset-195'. Are you logged in as the correct user? : genoset-195
+36 verbose stack     at makeError (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/request/request.js:1035:10)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/Users/kcollins/.nvm/versions/node/v4.2.4/lib/node_modules/npm/node_modules/request/request.js:962:12)
+37 verbose statusCode 403
+38 verbose pkgid genoset-195
+39 verbose cwd /Users/kcollins/Genome/increased_risk_factor_malignant_melanoma-gs195
+40 error Darwin 15.2.0
+41 error argv "/Users/kcollins/.nvm/versions/node/v4.2.4/bin/node" "/Users/kcollins/.nvm/versions/node/v4.2.4/bin/npm" "publish"
+42 error node v4.2.4
+43 error npm  v3.5.3
+44 error code E403
+45 error You do not have permission to publish 'genoset-195'. Are you logged in as the correct user? : genoset-195
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
