@@ -1,6 +1,6 @@
 {
   "name": "genoset-195",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Your haplotype is a very significant risk factor for malignant melanoma",
   "main": "index.js",
   "directories": {
